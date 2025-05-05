@@ -1,7 +1,8 @@
 module circuito_top (
     input  logic [3:0] SW,     // Switches SW[3:0] = A, B, C, D
-    input  logic       btn,    // Botón de la FPGA
-    output logic       nand_out  // Salida de la compuerta NAND
+    input  logic       btn,    // Botón del reloj
+	 input  logic       reset,    // Botón de reset
+    output logic       nand_out,  // Salida de la compuerta NAND
 	 output logic a, b, c, d, e, f, g  // Salidas del display de 7 segmentos
 );
     // Señales internas
@@ -10,10 +11,10 @@ module circuito_top (
 
     // Instancia del módulo combinatorio
     combinatorio comb_inst (
-        .A(SW[0]), 
-        .B(SW[1]), 
-        .C(SW[2]), 
-        .D(SW[3]), 
+        .A(SW[3]), 
+        .B(SW[2]), 
+        .C(SW[1]), 
+        .D(SW[0]), 
         .q1(qa), 
         .q2(qb), 
         .Y1(Y1), 
@@ -23,6 +24,7 @@ module circuito_top (
     // Instancia del módulo flip_flop D de dos bits
     flip_flop2b ff_inst (
         .btn(btn), 
+		  .reset(reset),
         .a(Y1), 
         .b(Y2), 
         .qa(qa), 
@@ -38,8 +40,8 @@ module circuito_top (
 	 
 	 // Instancia del display de 7 segmentos
     display_2bit display_inst (
-        .A(qa), 
-        .B(qb), 
+        .A(qb), 
+        .B(qa), 
         .a(a), 
         .b(b), 
         .c(c), 

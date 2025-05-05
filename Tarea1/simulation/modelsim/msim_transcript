@@ -1,0 +1,186 @@
+# Reading pref.tcl
+# do Tarea1_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying D:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+D:/Tarea1 {D:/Tarea1/combinatorio.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:34:31 on May 04,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Tarea1" D:/Tarea1/combinatorio.sv 
+# -- Compiling module combinatorio
+# 
+# Top level modules:
+# 	combinatorio
+# End time: 21:34:31 on May 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Tarea1 {D:/Tarea1/sumador.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:34:31 on May 04,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Tarea1" D:/Tarea1/sumador.sv 
+# -- Compiling module sumador
+# 
+# Top level modules:
+# 	sumador
+# End time: 21:34:32 on May 04,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Tarea1 {D:/Tarea1/xor_gate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:34:32 on May 04,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Tarea1" D:/Tarea1/xor_gate.sv 
+# -- Compiling module xor_gate
+# 
+# Top level modules:
+# 	xor_gate
+# End time: 21:34:32 on May 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Tarea1 {D:/Tarea1/and_gate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:34:32 on May 04,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Tarea1" D:/Tarea1/and_gate.sv 
+# -- Compiling module and_gate
+# 
+# Top level modules:
+# 	and_gate
+# End time: 21:34:32 on May 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Tarea1 {D:/Tarea1/nand_gate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:34:32 on May 04,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Tarea1" D:/Tarea1/nand_gate.sv 
+# -- Compiling module nand_gate
+# 
+# Top level modules:
+# 	nand_gate
+# End time: 21:34:32 on May 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Tarea1 {D:/Tarea1/display_2bit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:34:32 on May 04,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Tarea1" D:/Tarea1/display_2bit.sv 
+# -- Compiling module display_2bit
+# 
+# Top level modules:
+# 	display_2bit
+# End time: 21:34:32 on May 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Tarea1 {D:/Tarea1/not_gate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:34:32 on May 04,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Tarea1" D:/Tarea1/not_gate.sv 
+# -- Compiling module not_gate
+# 
+# Top level modules:
+# 	not_gate
+# End time: 21:34:32 on May 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Tarea1 {D:/Tarea1/or_gate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:34:32 on May 04,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Tarea1" D:/Tarea1/or_gate.sv 
+# -- Compiling module or_gate
+# 
+# Top level modules:
+# 	or_gate
+# End time: 21:34:32 on May 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Tarea1 {D:/Tarea1/d_flip_flop.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:34:32 on May 04,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Tarea1" D:/Tarea1/d_flip_flop.sv 
+# -- Compiling module d_flip_flop
+# 
+# Top level modules:
+# 	d_flip_flop
+# End time: 21:34:32 on May 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Tarea1 {D:/Tarea1/flip_flop2b.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:34:32 on May 04,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Tarea1" D:/Tarea1/flip_flop2b.sv 
+# -- Compiling module flip_flop2b
+# 
+# Top level modules:
+# 	flip_flop2b
+# End time: 21:34:32 on May 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Tarea1 {D:/Tarea1/circuito_top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:34:32 on May 04,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Tarea1" D:/Tarea1/circuito_top.sv 
+# -- Compiling module circuito_top
+# 
+# Top level modules:
+# 	circuito_top
+# End time: 21:34:32 on May 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Tarea1 {D:/Tarea1/circuito_top_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:34:32 on May 04,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Tarea1" D:/Tarea1/circuito_top_tb.sv 
+# -- Compiling module circuito_top_tb
+# 
+# Top level modules:
+# 	circuito_top_tb
+# End time: 21:34:32 on May 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+D:/Tarea1 {D:/Tarea1/circuito_top_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:34:32 on May 04,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Tarea1" D:/Tarea1/circuito_top_tb.sv 
+# -- Compiling module circuito_top_tb
+# 
+# Top level modules:
+# 	circuito_top_tb
+# End time: 21:34:33 on May 04,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  circuito_top_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" circuito_top_tb 
+# Start time: 21:34:33 on May 04,2025
+# Loading sv_std.std
+# Loading work.circuito_top_tb
+# Loading work.circuito_top
+# Loading work.combinatorio
+# Loading work.or_gate
+# Loading work.sumador
+# Loading work.xor_gate
+# Loading work.and_gate
+# Loading work.flip_flop2b
+# Loading work.d_flip_flop
+# Loading work.nand_gate
+# Loading work.display_2bit
+# Loading work.not_gate
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Time=0 | SW=0000 | btn=1 | reset=0 | nand_out=1 | Display=0000001
+# Time=5000 | SW=0001 | btn=1 | reset=1 | nand_out=1 | Display=0000001
+# Time=10000 | SW=0001 | btn=0 | reset=1 | nand_out=1 | Display=0000001
+# Time=15000 | SW=0001 | btn=1 | reset=1 | nand_out=1 | Display=0000001
+# Time=30000 | SW=0010 | btn=1 | reset=1 | nand_out=1 | Display=0000001
+# Time=35000 | SW=0010 | btn=0 | reset=1 | nand_out=1 | Display=1001111
+# Time=40000 | SW=0010 | btn=1 | reset=1 | nand_out=1 | Display=1001111
+# Time=55000 | SW=0100 | btn=1 | reset=1 | nand_out=1 | Display=1001111
+# Time=60000 | SW=0100 | btn=0 | reset=1 | nand_out=0 | Display=0000110
+# Time=65000 | SW=0100 | btn=1 | reset=1 | nand_out=0 | Display=0000110
+# Time=80000 | SW=1000 | btn=1 | reset=1 | nand_out=0 | Display=0000110
+# Time=85000 | SW=1000 | btn=0 | reset=1 | nand_out=1 | Display=0010010
+# Time=90000 | SW=1000 | btn=1 | reset=1 | nand_out=1 | Display=0010010
+# ** Note: $finish    : D:/Tarea1/circuito_top_tb.sv(52)
+#    Time: 105 ns  Iteration: 0  Instance: /circuito_top_tb
+# 1
+# Break in Module circuito_top_tb at D:/Tarea1/circuito_top_tb.sv line 52
+# End time: 21:38:50 on May 04,2025, Elapsed time: 0:04:17
+# Errors: 0, Warnings: 0

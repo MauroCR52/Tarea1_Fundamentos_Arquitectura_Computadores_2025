@@ -1,5 +1,6 @@
 module flip_flop2b (
-    input logic btn,    // Botón de fpga
+    input logic btn,    // Botón de fpga de reloj
+	 input logic reset,        // Botón de fpga de reset
     input logic a, b,   // Entradas de datos separadas
     output logic qa, qb // salidas del flip-flop
 );
@@ -10,6 +11,7 @@ module flip_flop2b (
     // Instancia del flip-flop D para el bit a
     d_flip_flop ff0 (
         .clk(clk_real),
+		  .reset(reset),
         .d(a),
         .q(qa)
     );
@@ -17,6 +19,7 @@ module flip_flop2b (
     // Instancia del flip-flop D para el bit b
     d_flip_flop ff1 (
         .clk(clk_real),
+		  .reset(reset),
         .d(b),
         .q(qb)
     );
