@@ -5,8 +5,8 @@ module sumador (
 	 
 );
 
-//Z1: bit 1 del sumador resultante    Z1: 0, Z2: 1 = 2
-//Z2: bit 2 del sumador resultante    Z1: 1, Z2: 0 = 1
+//Z1: bit 1 del sumador resultante
+//Z2: bit 2 del sumador resultante
 
     logic xor1_out, and1_out, xor2_out;
 
